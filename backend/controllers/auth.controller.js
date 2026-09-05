@@ -1,6 +1,6 @@
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
-const userModel = require("../models/user.model");
+const userModel = require("../routes/models/user.model");
 const register = async (req, res) => {
   const userdata = req.body;
   if (

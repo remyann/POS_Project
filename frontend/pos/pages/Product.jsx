@@ -6,7 +6,7 @@ import toast, { Toaster } from "react-hot-toast";
 import Table from '../components/Table/Table';
 import ProductForm from "../components/Product/ProductForm";
 
-import axios from "axios";
+import axios from "../src/api";
 
 function Product() {
   const { setEndpoint, setColumns, setRows, showTable, setLabel, handleView, setIsEdit } =
